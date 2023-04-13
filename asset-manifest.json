@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jenniecbm.github.io/BF/static/css/main.6ae84f16.css",
-    "main.js": "/jenniecbm.github.io/BF/static/js/main.1052f3ed.js",
-    "static/js/787.19d80f0f.chunk.js": "/jenniecbm.github.io/BF/static/js/787.19d80f0f.chunk.js",
-    "index.html": "/jenniecbm.github.io/BF/index.html",
-    "main.6ae84f16.css.map": "/jenniecbm.github.io/BF/static/css/main.6ae84f16.css.map",
-    "main.1052f3ed.js.map": "/jenniecbm.github.io/BF/static/js/main.1052f3ed.js.map",
-    "787.19d80f0f.chunk.js.map": "/jenniecbm.github.io/BF/static/js/787.19d80f0f.chunk.js.map"
+    "main.css": "/BF/static/css/main.6ae84f16.css",
+    "main.js": "/BF/static/js/main.1dbccf5d.js",
+    "static/js/787.19d80f0f.chunk.js": "/BF/static/js/787.19d80f0f.chunk.js",
+    "index.html": "/BF/index.html",
+    "main.6ae84f16.css.map": "/BF/static/css/main.6ae84f16.css.map",
+    "main.1dbccf5d.js.map": "/BF/static/js/main.1dbccf5d.js.map",
+    "787.19d80f0f.chunk.js.map": "/BF/static/js/787.19d80f0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ae84f16.css",
-    "static/js/main.1052f3ed.js"
+    "static/js/main.1dbccf5d.js"
   ]
 }
