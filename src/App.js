@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes, HashRouter} from "react-router-dom";
 import Layout from "./sections/Layout";
 import Home from "./pages/Home";
 import Historia from "./pages/Historia";
@@ -8,16 +8,14 @@ import ElCafe from "./pages/ElCafe"
 import Fotos from "./pages/Fotos"
 import Reservas from "./pages/Reservas"
 import NotFound from "./pages/NotFound";
-import Header from "./sections/Header";
-import Footer from "./sections/Footer";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route path="/historia" element={<Historia />}/>
             <Route path="/platos" element={<Platos />}/>
             <Route path="/elCafe" element={<ElCafe />}/>
@@ -26,7 +24,7 @@ function App() {
             <Route path="*" element={<NotFound />}/>          
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
