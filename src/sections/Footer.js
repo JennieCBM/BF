@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useState, createRef } from 'react';
+import {createRef } from 'react';
 
 const Footer = () => {
     const navigate = useNavigate();
@@ -21,14 +21,14 @@ const Footer = () => {
     }
 
     return (
-        <footer className="flex-col items-center bg-[#490011] text-white h-[20em] px-[1em] text-center text-sm md:text-md lg:text-lg overflow-hidden">
+        <footer className="flex-col items-center bg-[#490011] text-white h-[20em] px-[1em] text-center text-sm md:text-md lg:text-lg overflow-hidden ">
             <div className='flex cursor-pointer items-center justify-center pt-[4em] pb-[2em]'>
                 <div className='z-50 h-full flex items-center cursor-pointer' onClick={() => navigate('/')}>
-                    <img src="img/Logo2bigFood.png" className='w-[9em]'>
+                    <img src={`${process.env.PUBLIC_URL}/img/Logo2bigFood.png`} className='w-[9em]' alt="logo2">
                     </img>
                 </div>
             </div> 
-            <div className='h-[40%] flex flex-col justify-around pb-[1em]'>
+            <div className='h-[40%] flex flex-col justify-around pb-[1em] '>
                 <p className='font-bold tracking-widest'>
                     <a href='https://goo.gl/maps/xWqz3wwmaCqb8Q1U6' target='_blank' rel='noreferrer' className='cursor-pointer hover:text-[#cea481]'>
                     Dirección: Malabia 1893, CABA
