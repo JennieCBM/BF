@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         {name:'facebook', to: "https://www.facebook.com/BigFood.ar", icon:"logo-facebook", size:"1.3em", color:"white"},
     ]
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col w-screen ">
             <Header/>
             <div className="fixed right-0 top-1/2 transform -translate-y-1/2 h-auto w-auto bg-[#cea581] flex flex-col justify-center items-center py-2 rounded-tl-lg rounded-bl-lg z-[200]">
                 {
